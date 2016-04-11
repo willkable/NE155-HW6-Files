@@ -4,7 +4,7 @@ from math import *
 
 def fluxes(h):
     # (-1)flux(i-1) + (2 + h^2/L^2)flux(i) (-1)flux(x)
-    # (-1)x + (2 + h^2/L^2)y (-1)z
+    # (-1)x + (2 + h^2/L^2)y + (-1)z
     # Generate Matrix
     a = 4   #cm
     D = 1   #cm
